@@ -1,5 +1,5 @@
 format: jb-book
-root: index
+root: README
 parts:
   - caption: "Downloading data from Huggingface"
     chapters:
