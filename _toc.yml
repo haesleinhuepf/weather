@@ -1,0 +1,22 @@
+format: jb-book
+root: index
+parts:
+  - caption: "Downloading data from Huggingface"
+    chapters:
+      - file: download_huggingface.ipynb
+  - caption: "Downloading map data from AWS"
+    chapters:
+      - file: download_maps.ipynb
+
+  - caption: "Weather data visualization"
+    chapters:
+      - file: plot_temp_over_time.ipynb
+      - file: plot_map.ipynb
+      - file: plot_timelapse.ipynb
+      
+  - caption: "Downloading data from DWD (optional)"
+    chapters:
+      - file: download_weather.ipynb
+      - file: convert_parquet.ipynb
+      - file: upload_huggingface.ipynb
+      
